@@ -1,0 +1,45 @@
+.pointer,
+kbd {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#add-class {
+    margin-bottom: 10px;
+}
+
+.templet-form input,
+.templet-form textarea {
+    margin-top: 10px;
+}
+
+#add-module,
+#choose-module {
+    float: left;
+    margin-right: 10px;
+}
+
+@media screen {
+    .print-paper {
+        width: 190mm;
+        margin: 0 auto;
+        padding: 0 15mm;
+    }
+}
+
+@media print {
+    .print-btn {
+        display: none;
+    }
+
+    .print-paper {
+        padding: 15mm 10mm;
+    }
+}
+
+.row > .col-md-4 {
+    margin-bottom: 5px;
+}

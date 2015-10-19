@@ -1,0 +1,33 @@
+@media print {
+    .print-btn {
+        display: none;
+    }
+
+    .print-paper {
+        padding: 15mm 10mm;
+    }
+}
+
+@media screen {
+    .print-paper {
+        width: 190mm;
+        margin: 0 auto;
+        padding: 0 15mm;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.verify-checkbox {
+    margin-left: 20px
+}
+
+#btn-edit {
+    margin-top: 20px;
+}
+
+.img-thumbnail {
+    margin: 10px 10px 0 0;
+}

@@ -1,0 +1,14 @@
+name: stusys
+version: 1
+
+handle:
+- rewrite:  if ( !is_dir() && !is_file() && path ~ "^(.*)$" ) goto "index.php/$1"
+
+cron:
+- description: clean_task
+  url: /System-Task-clean.html
+  schedule: "*/20 * * * *"
+
+- description: backup_task
+  url: /System-Task-backup.html
+  schedule: "* 1 * * *"
