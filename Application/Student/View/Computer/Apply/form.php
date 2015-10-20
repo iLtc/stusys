@@ -16,6 +16,12 @@
                             echo "<label class=\"radio inline\"><input type=\"radio\" name=\"$data[name]\" value=\"$value\" /> $value</label>";
                         }
                         break;
+                    case 'checkbox':
+                        $data['value'] = explode(',', $data['value']);
+                        foreach($data['value'] as $value){
+                            echo "<label class=\"checkbox\"><input type=\"checkbox\" name=\"$data[name][]\" value=\"$value\" /> $value</label>";
+                        }
+                        break;
                     case 'textarea':
                         echo "<textarea name=\"$data[name]\" id=\"$data[name]\" rows=\"7\"></textarea>";
                         break;

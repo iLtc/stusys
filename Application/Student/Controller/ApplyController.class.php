@@ -57,6 +57,7 @@ class ApplyController extends Controller {
                     }
                 }
                 $save[$data['name']]['title'] = $data['title'];
+                if(is_array($_REQUEST[$data['name']])) $_REQUEST[$data['name']] = implode(', ', $_REQUEST[$data['name']]);
                 $save[$data['name']]['value'] = str_replace("\r\n", '', $_REQUEST[$data['name']]);
             }
 
