@@ -65,6 +65,13 @@
     <script src="__PUBLIC__/lightbox/js/lightbox.js"></script>
     <script src="__PUBLIC__/jquery-ui/jquery-ui.min.js"></script>
     <script src="__PUBLIC__/jquery-ui/datepicker-zh-TW.js"></script>
+        
+    <script type="text/javascript" src="__PUBLIC__/simditor/scripts/module.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/simditor/scripts/hotkeys.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/simditor/scripts/simditor.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/simditor/scripts/beautify-html.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/simditor/scripts/simditor-html.js"></script>
+        
     <script src="__PUBLIC__/js/public.js"></script>
     <script src="__PUBLIC__/js/worker.js"></script>
     <div style="display: none"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254479398'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1254479398' type='text/javascript'%3E%3C/script%3E"));</script></div>

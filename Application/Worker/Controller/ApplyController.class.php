@@ -240,6 +240,14 @@ class ApplyController extends Controller {
             $this->success('保存成功', 'Worker-Apply-view.html?aid='.$aid);
         }
     }
+	
+	public function editview2nd(){
+        $aid = I('get.aid');
+        $templet = $this->getview($aid);
+
+        $this->assign('content', $templet);
+        $this->display();
+    }
 
     public function detail(){
         $aid = I('get.aid');

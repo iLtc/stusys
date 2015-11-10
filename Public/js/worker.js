@@ -139,6 +139,17 @@ function Apply_editview(){
     });
 }
 
+function Apply_editview2nd(){
+    var editor = simditorInit($("#editor"));
+    
+    $('form').submit(function(){
+        editor.sync();
+        submitForm($(this));
+
+        return false;
+    });
+}
+
 function Apply_detail(){
     getApplyLog($("#log"));
 

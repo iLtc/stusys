@@ -171,6 +171,17 @@ function editorInit(editor){
     });
 }
 
+function simditorInit(obj){
+	var editor = new Simditor({
+		textarea: obj,
+	  	toolbar: ['title', 'bold', 'italic', 'underline', 'strikethrough', '|',  'ol', 'ul', 'blockquote',
+				  'table', 'link', 'image', 'hr', 'indent', 'outdent', 'alignment', 'html'],
+		//autosave: savepath //TODO:authsave
+	});
+	
+	return editor;
+}
+
 function setIframeHeight(iframe) {
 	if (iframe) {
 		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
