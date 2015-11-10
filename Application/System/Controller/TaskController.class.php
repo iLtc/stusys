@@ -72,7 +72,7 @@ class TaskController extends Controller {
         $dj = new \SaeDeferredJob();
 
         //添加任务
-        foreach($dbList as $db) $dj->addTask("export", "mysql", "backup", date('Ymd')."-".$db.".zip", "app_hort", $db, "", true);
+        foreach($dbList as $db) $dj->addTask("export", "mysql", "backup", date('Ymd')."-".$db.".zip", "app_stusys", $db, "", true);
     }
 
 }
